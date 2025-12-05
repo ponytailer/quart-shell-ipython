@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "quart-shell-ipython"
-version = "0.1.1"
+version = "0.1.2"
 description = "Startup the quart shell with ipython"
 authors = ["hs <huangxiaohen2738@gmail.com>"]
 classifiers = [
