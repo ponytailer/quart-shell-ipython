@@ -9,10 +9,13 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 license = "MIT"
 readme = "README.md"
@@ -27,6 +30,11 @@ default = true
 python = ">=3.7"
 quart = "*"
 ipython = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+pytest-asyncio = "^0.21.0"
 
 [tool.poetry.plugins."quart.commands"]
 "shell" = "quart_shell_ipython:shell"
